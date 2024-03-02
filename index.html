@@ -9,47 +9,43 @@
 <body>
     <main>
         <form action="">
-            <div id="text_login" class="text_login">
-                <h1>Login</h1>
+            <div id="txt-login"><h1>Login</h1></div>
+        
+            <div id="secao_login">
+            <p>
+                <label for="iuser">User:</label>
+                <input type="text" name="iuser" id="iuser">
+            </p>
+            <p>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="isenha" id="isenha">
+            </p>
+            <p>
+             <button type="submit">Entrar</button>
+            </p>
             </div>
-
-            <div id="container_login" class="container_login" >
-              <p>
-                <label for="login">Login:</label>
-                <input type="text" name="login" id="login">
-              </p>
-              <p>
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha">
-              </p>
-              <p id="btn">
-              <button id="btn_entrar" type="submit">Entrar</button>
-              </p>
-            </div>
-            <div id="text_recuperar" class="text_recuperar icone">
-                <p id="rec">Rescuperar Acesso
-                </p>
-            </div>
+            <p>
+                Recuperar Acesso
+            </p>
         </form>
-            
+       <div id="recuperar_conta">
+        <p>
+            <input type="email" name="iemail" id="iemail">
+        </p>
+        <p>
+            <input type="text" name="icpf" id="icpf">
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+        <p>
+            Caso isso não resolva seu problema entre em contato com o suporte <a href="">Clicando aqui!</a>
+        </p>
+        <p>
+            Fechar
+        </p>
+       </div>
     </main>
-    <section id="secao_recuperar" class="secao_recuperar">
-        <div id="div_recuperar" class="div_recuperar" >
-            <p>
-                <input type="email" name="email_cadastrado" id="email_cadastrado" placeholder="Insira o email cadastrado">
-            </p>
-            <p>
-                <input type="text" name="cpf_cadastrado" id="cpf_cadastrado" placeholder="Insira o cpf cadastrado">
-            </p>
-            <p>
-                <button type="submit">Enviar</button>
-            </p>
-            <p>Caso isso não resolva seu problema <a href="">Clique aqui!</a> para falar com o suporte</p>
-        </div>
-        <div id="fechar_recuperar">
-            <p id="text_fechar" class="text_fechar">Fechar</p>
-        </div>
-    </section>
     <script src="scripts/index.js"></script>
 </body>
 </html>
